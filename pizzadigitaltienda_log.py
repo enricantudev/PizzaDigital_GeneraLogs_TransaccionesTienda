@@ -26,7 +26,47 @@ def generar_log_pizza():
     {"ciudad": "CDMX", "nombre_sucursal": "Miramontes", "lat": 19.3000, "lon": -99.1200},
     {"ciudad": "CDMX", "nombre_sucursal": "Cafetales", "lat": 19.2900, "lon": -99.1100},
     {"ciudad": "CDMX", "nombre_sucursal": "Renato Leduc", "lat": 19.2800, "lon": -99.1000},
-    {"ciudad": "CDMX", "nombre_sucursal": "Xochimilco", "lat": 19.2600, "lon": -99.0900}
+    {"ciudad": "CDMX", "nombre_sucursal": "Xochimilco", "lat": 19.2600, "lon": -99.0900},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Morelos", "lat": 25.6667, "lon": -100.3167},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Madero Oriente", "lat": 25.6789, "lon": -100.2567},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Lincoln", "lat": 25.7250, "lon": -100.3500},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Garza Sada", "lat": 25.6133, "lon": -100.2833},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Sierra Del Fraile", "lat": 25.6500, "lon": -100.3000},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Plaza Real", "lat": 25.7255, "lon": -100.3505},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Constitucion PTE", "lat": 25.6660, "lon": -100.3160},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Boulevard Acapulco", "lat": 25.6505, "lon": -100.2905},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Plaza Barletta", "lat": 25.7000, "lon": -100.3500},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Carretera Nacional", "lat": 25.6000, "lon": -100.2500},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Pino Suarez", "lat": 25.6665, "lon": -100.3165},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Guerrero", "lat": 25.6700, "lon": -100.3200},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Solidaridad", "lat": 25.7100, "lon": -100.3400},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Aaron Saenz", "lat": 25.6800, "lon": -100.3000},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Junco de la Vega", "lat": 25.6500, "lon": -100.2900},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Plaza La Rioja", "lat": 25.6005, "lon": -100.2505},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Dionisio Gonzalez", "lat": 25.6705, "lon": -100.3205},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Puerta de Hierro", "lat": 25.7200, "lon": -100.3500},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Plaza Bendetti", "lat": 25.7300, "lon": -100.3600},
+    {"ciudad": "Monterrey", "nombre_sucursal": "Cumbres Elite", "lat": 25.7400, "lon": -100.3700},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Plaza Alcalde 915", "lat": 20.6935, "lon": -103.3506},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Av Revolucion", "lat": 20.6500, "lon": -103.3000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Pablo Neruda", "lat": 20.7000, "lon": -103.4000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Carretera GDL", "lat": 20.6000, "lon": -103.2000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Lopez Cotilla", "lat": 20.6700, "lon": -103.3500},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Lopez Mateos", "lat": 20.6500, "lon": -103.4000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Chapultepec Norte", "lat": 20.6700, "lon": -103.3500},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Plaza del Norte", "lat": 20.7000, "lon": -103.3500},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Cruz del Sur", "lat": 20.6000, "lon": -103.3000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Ruben Dario", "lat": 20.6800, "lon": -103.4000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Adolph Horn", "lat": 20.6000, "lon": -103.3000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Cruz del Sur", "lat": 20.6000, "lon": -103.3000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Vallarta", "lat": 20.6700, "lon": -103.3500},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Mariano Otero", "lat": 20.6500, "lon": -103.4000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Robledo", "lat": 20.6500, "lon": -103.3000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Plaza Guadalupe", "lat": 20.6500, "lon": -103.4000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Golfo de Cortez", "lat": 20.7000, "lon": -103.3500},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Calzada Oblatos", "lat": 20.6500, "lon": -103.3000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Plaza Morelia", "lat": 20.6000, "lon": -103.2000},
+    {"ciudad":"Guadalajara","nombre_sucursal": "Plaza los Santos", "lat": 20.7000, "lon": -103.3500}
   ]
 
   _sucursales = ["Roma", "Condesa", "Polanco", "Narvarte"]
@@ -73,6 +113,7 @@ def generar_log_pizza():
 
   # log = f"{fecha_hora}|{id_pedido}|{sucursal}|{tipo_pizza}|{tamano}|{cantidad}|{metodos_pago}|{promociones}|{precio}"
   # log = '{"ubicaion":"'+sucursal+'","timestamp":"'+fecha_hora+'","id_pedido":"'+str(id_pedido)+'","tipo_pizza":"'+tipo_pizza+'","tamano":"'+tamano+'","cantidad":"'+str(cantidad)+'","metodos_pago":"'+metodos_pago+'","promociones":"'+promociones+'","precio":"'+str(precio)+'"}'
+  # log = f'{{"timestamp":"{fecha_hora.replace("2025-01-28","2025-01-27")}","id_pedido":"{id_pedido}","tipo_pizza":"{tipo_pizza}","tamano":"{tamano}","cantidad":"{cantidad}","metodos_pago":"{metodos_pago}","promociones":"{promociones}","precio":"{precio}",{json.dumps(sucursal).replace("}", "").replace("{", "")}}}'
   log = f'{{"timestamp":"{fecha_hora}","id_pedido":"{id_pedido}","tipo_pizza":"{tipo_pizza}","tamano":"{tamano}","cantidad":"{cantidad}","metodos_pago":"{metodos_pago}","promociones":"{promociones}","precio":"{precio}",{json.dumps(sucursal).replace("}", "").replace("{", "")}}}'
 
   return log
@@ -86,12 +127,12 @@ def escribir_logs(nombre_archivo, num_logs):
       log = generar_log_pizza()
       archivo.write(log + "\n")
       print(f"Log generado: {log}") # Imprimir en la consola para verificación
-      time.sleep(0)  # Esperar 2 segundos para simular actividad
+      time.sleep(2)  # Esperar 2 segundos para simular actividad
 
 
 if __name__ == "__main__":
-  nombre_archivo = "C:/Dev/MasterInnovation-20241213T143052Z-001/MasterInnovation/PizzaDigitalTienda.log"
-  num_logs = 500  # Número de logs a generar
+  nombre_archivo = "C:/Dev/PizzaDigital_GeneraLogs_TransaccionesTienda/Logs/PizzaDigitalTienda.log"
+  num_logs = 350  # Número de logs a generar
 
   escribir_logs(nombre_archivo, num_logs)
   print(f"Se generaron {num_logs} logs en el archivo {nombre_archivo}")
